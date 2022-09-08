@@ -10,27 +10,27 @@ on:
       LIBRARY_URL:
         description: 'LIBRARY_URL'
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git'
+        default: 'git://github.com/SHRP/platform_manifest_twrp_omni.git'
       LIBRARY_BRANCH:
         description: 'LIBRARY_BRANCH'
         required: true
-        default: 'twrp-12.1'
+        default: 'v3_11.0'
       DEVICE_URL:
         description: 'DEVICE_URL'
         required: true
-        default: 'https://github.com/Seifood/device_xiaomi_gauguin-TWRP'
+        default: 'https://github.com/Mikesew1320/TECNO-CD6-SHRP-Tree'
       DEVICE_BRANCH:
         description: 'DEVICE_BRANCH'
         required: true
-        default: 'android-12.11'
+        default: 'android-10.0'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/gauguin'
+        default: 'device/TECNO/CD6'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'gauguin'
+        default: 'CD6'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
